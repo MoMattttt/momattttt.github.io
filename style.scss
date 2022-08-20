@@ -1,0 +1,49 @@
+.attribution{
+    visibility: hidden;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    height: 50%;
+    width: 50%;
+}
+
+h1{
+    font-family: 'Fraunces';
+    font-size: 28px;
+    color: hsl(212, 21%, 14%);
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    letter-spacing: 8px;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+p{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+.price{
+    font-family: 'Fraunces';
+    font-size: 28px;
+    &.price--old{
+        font-family: 'Montserrat';
+        font-weight: 500;
+        color: hsl(228, 12%, 48%);
+        font-size: 12px;
+    }
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+}
