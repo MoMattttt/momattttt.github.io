@@ -1,14 +1,13 @@
-// .attribution{
-//     visibility: hidden;
-// }
+.attribution{
+    visibility: hidden;
+}
 
-body{
+main{
     justify-content: center;
     align-items: center;
     background-color: hsl(30, 38%, 92%);
     display: flex;
-    min-height: 90vh;
-    min-width: 90vw;
+    height: 100vh;
 }
 
 h1{
@@ -86,4 +85,8 @@ p{
 
     border-radius: 10px;
     height: 50px;
+}
+
+body{
+    margin:0%;
 }

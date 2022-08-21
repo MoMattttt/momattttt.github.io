@@ -1,10 +1,13 @@
-body {
+.attribution {
+  visibility: hidden;
+}
+
+main {
   justify-content: center;
   align-items: center;
   background-color: hsl(30deg, 38%, 92%);
   display: flex;
-  min-height: 90vh;
-  min-width: 90vw;
+  height: 100vh;
 }
 
 h1 {
@@ -81,4 +84,8 @@ p {
   text-align: center;
   border-radius: 10px;
   height: 50px;
+}
+
+body {
+  margin: 0%;
 }/*# sourceMappingURL=style.css.map */
