@@ -1,21 +1,21 @@
-.attribution{
-    visibility: hidden;
-}
+// .attribution{
+//     visibility: hidden;
+// }
 
 body{
-    display: flex;
     justify-content: center;
-    margin: auto;
     align-items: center;
     background-color: hsl(30, 38%, 92%);
-    height: 50%;
-    width: 50%;
+    display: flex;
+    min-height: 90vh;
+    min-width: 90vw;
 }
 
 h1{
     font-family: 'Fraunces';
-    font-size: 28px;
+    font-size: 32px;
     color: hsl(212, 21%, 14%);
+    line-height: 90%;
 }
 
 h2{
@@ -34,16 +34,56 @@ p{
 }
 
 .price{
+    display: flex;
+    align-items: center;
     font-family: 'Fraunces';
     font-size: 28px;
+    color: hsl(158, 36%, 37%);
     &.price--old{
         font-family: 'Montserrat';
+        margin-left: 15px;
         font-weight: 500;
         color: hsl(228, 12%, 48%);
         font-size: 12px;
+        text-decoration: line-through;
+    }
+}
+
+.marge{
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    * {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin: 0;
     }
 }
 
 .card{
+    overflow: hidden;
+    border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
+    display: flex;
+    width: 600px;
+    height: 420px;
+    * {
+        flex: 1;
+    }
+}
+
+.text{
+    display: flex;
+    align-items: center;
+}
+
+.bouton{
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-align: center;
+
+    border-radius: 10px;
+    height: 50px;
 }
